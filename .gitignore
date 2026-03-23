@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Scan results and sensitive data (CRITICAL for security projects)
+*.json
+last_scan.json
+known_devices.json
+scan_results/
+*.log
+
+# OS and editor junk
+.DS_Store
+.vscode/
+.idea/
+*.json
+
+known_devices.json
