@@ -86,7 +86,7 @@ def passive_wifi_scan(iface, duration=15):
     sniff(iface=iface, prn=packet_handler, timeout=duration, store=False)
     return list(devices.values())
 
-def arp_scan(iface, target="192.168.4.0/22"):
+def arp_scan(iface, target="ENTER_YOUR_IP_HERE"):
     print(f"[+] Starting ARP scan on {iface} for subnet {target}...")
     arp = ARP(pdst=target)
     ether = Ether(dst="ff:ff:ff:ff:ff:ff")
