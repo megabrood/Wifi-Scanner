@@ -13,11 +13,6 @@ and detection engineering practice
 - Optional MAC vendor lookup
 - Full 'argparse' support for easy command-line use
 
-## Installatin
-
-sudo apt install python3-scapy aircrack-ng -y
-pip install scapy requests netifaces
-
 # Purpose
 
 Built as part of my Security Engineer - Detection & Response preparation
