@@ -12,7 +12,7 @@ A lightweight Python network scanner using **Scapy** for home lab security monit
 
 # Purpose
 
-Built as part of my Security Engineer - Detection & Response preparation (targeting roles like xAI)
+Built as part of my Security Engineer - Detection & Response preparation
 
 # How to Run
 
