@@ -17,3 +17,13 @@ and detection engineering practice
 
 sudo apt install python3-scapy aircrack-ng -y
 pip install scapy requests netifaces
+
+# Purpose
+
+Built as part of my Security Engineer - Detection & Response preparation
+
+# How to Run
+
+sudo apt install python3-scapy aircrack-ng -y
+
+pip install scapy requests # for vendor lookup if needed
