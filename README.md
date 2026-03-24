@@ -1,20 +1,19 @@
 # WiFi Device Scanner
 
-A lightweight Python network scanner using **Scapy** for home lab security monitoring and detection engineering practice.
+A clean, beginner-friendly network scanner built with **scapy** for home-lab security monitoring
+and detection engineering practice
+
+**Perfect for learning Python Automation** 
 
 ## Features
 
-- Automatic WiFi/Ethernet interface detection
-- Passive and active device discovery (MAC addresses + vendor OUI lookups)
-- Known vs Unknown device tracking
-- Local Ollama integration for smart alert analysis
-- Ready for SIEM export (Wazuh / Elastic)
+- Automatic interface detection (skips loopback)
+- **Two scanning modes**: ARP (active) + 802.11 passive (monitor mode)
+- Known vs unknow device tracking (local JSON - NEVER UPLOAD)
+- Optional MAC vendor lookup
+- Full 'argparse' support for easy command-line use
 
-# Purpose
-
-Built as part of my Security Engineer - Detection & Response preparation (targeting roles like xAI)
-
-# How to Run
+## Installatin
 
 sudo apt install python3-scapy aircrack-ng -y
-pip install scapy requests # for vendor lookup if needed
+pip install scapy requests netifaces
