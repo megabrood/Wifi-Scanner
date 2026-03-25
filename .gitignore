@@ -20,3 +20,4 @@ scan_results/
 *.json
 
 known_devices.json
+logs/

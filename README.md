@@ -27,3 +27,7 @@ Built as part of my Security Engineer - Detection & Response preparation
 sudo apt install python3-scapy aircrack-ng -y
 
 pip install scapy requests # for vendor lookup if needed
+
+cd src
+
+sudo python3 main.py --mode passive
