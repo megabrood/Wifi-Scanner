@@ -67,7 +67,7 @@ def main():
     if args.mode == "passive" or (args.mode == "auto" and is_monitor_mode(iface)):
         devices = passive_wifi_scan(iface, args.duration, use_vendor)
     else:
-        target = "192.168.4.0/22"   # Your home subnet
+        target = "ENTER_IP_HERE"   # Your home subnet
         devices = arp_scan(iface, target, use_vendor)
 
     # Print results
